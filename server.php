@@ -14,7 +14,7 @@ if ( !file_exists('mydb.db') ) {
 }
 
 // If we get a GET request from client
-if ( isset($_POST['getChat']) ) {
+if ( isset($_GET['getChat']) ) {
     echo json_encode(get_messages($db));
 }
 

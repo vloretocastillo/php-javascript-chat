@@ -10,8 +10,12 @@
     
   <!-- <body onload="setInterval('console.log(\'hi\')', 1000)"> -->
   <body>
-    <h1>PHP Chat</h1>
+    <h1>Web Chat</h1>
     <h3>Welcome, <span id="welcomeUserName">Guest</span></h3>
+
+    <button class="clear-session hide-me" id="clearSessionButton">Clear Session</button>
+        <button class="join-session" id="joinSessionButton">Join Chat</button>
+        
     <div id="wrapper">
         <div id="menu">
             <div style="clear:both"></div>
@@ -22,13 +26,12 @@
         </div>
          
         <form name="message" action="" id="form-chat">
-            <input name="message" type="text" id="message" size="63" />
-            <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+            <input name="message" type="text" id="message" size="63" class='message'/>
+            <input name="submitmsg" type="submit"  id="submitmsg" class='submit' value="Send" />
         </form>
 
 
-        <button class="clear-session hide-me" id="clearSessionButton">Clear Session</button>
-        <button class="join-session" id="joinSessionButton">Join Chat</button>
+        
     </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

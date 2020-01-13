@@ -13,7 +13,7 @@ $(document).ready(function(){
     // Function definition: making ajax call to the back end to get the current state of the chat
     const getCurrentStateOfChat = (stringUrl) => {
         $.ajax({
-            type: "POST",
+            type: "GET",
             url: stringUrl,
             data : { 'getChat' : true },
             success: (response) => {

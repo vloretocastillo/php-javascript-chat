@@ -2,7 +2,12 @@ body {
     font:12px arial;
     color: #222;
     text-align:center;
-    padding:35px; }
+    padding:35px; 
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
   
 form, p, span {
     margin:0;
@@ -20,8 +25,11 @@ a {
     margin:0 auto;
     padding-bottom:25px;
     background:#EBF4FB;
+    background: transparent;
     width:504px;
-    border:1px solid #ACD8F0; }
+    border-radius: 5px;
+    /* border:1px solid #ACD8F0;  */
+}
   
 #loginform { padding-top:18px; }
   
@@ -35,14 +43,34 @@ a {
     background:#fff;
     height:270px;
     width:430px;
-    border:1px solid #ACD8F0;
-    overflow:auto; }
+    overflow:auto; 
+    border-radius: 5px;
+}
   
 #usermsg {
     width:395px;
-    border:1px solid #ACD8F0; }
+    /* border:1px solid #ACD8F0;  */
+}
   
-#submit { width: 60px; }
+.submit { 
+    /* width: 60px;  */
+    background-color: #055968;
+    padding: 7px;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.submit:hover {
+    background-color: #128da3;
+}
+
+.message { 
+    padding:  7px;
+    border-radius: 5px;
+    border: none;
+
+}
   
 .error { color: #ff0000; }
   
@@ -56,9 +84,28 @@ a {
 
 .clear-session {
     margin-top: 3%;
+    background-color: #055968;
+    padding: 7px;
+    color: #fff;
+    border-radius: 5px;
 }
 .join-session {
     margin-top: 3%;
+    background-color: #055968;
+    padding: 7px;
+    color: #fff;
+    border-radius: 5px;
+    border: none
+}
+
+.clear-session:hover {
+    background-color: #128da3;
+
+}
+
+.join-session:hover {
+    background-color: #128da3;
+
 }
 
 .hide-me {
