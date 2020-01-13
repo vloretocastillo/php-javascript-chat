@@ -14,12 +14,13 @@ All messages are stored in a simple SQLite file db.
 
 
 
-
 Calls to the backend are done via ajax.
 
 
 ________
 
 After downloading the profect, open in your editor and at the root run the command php -S localhost:8000
+
 Open the client/index.html file in the browser
+
 join the chat
