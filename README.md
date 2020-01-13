@@ -14,4 +14,5 @@ All messages are stored in a simple SQLite file db.
 
 
 
+
 Calls to the backend are done via ajax.
