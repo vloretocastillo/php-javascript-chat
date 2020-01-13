@@ -14,4 +14,4 @@ All messages are stored in a simple SQLite file db.
 
 Calls to the backend are done via ajax calls.
 
-User information is stored in the localStorage until the user decides to leave the chat session.
+User information is stored in the localStorage until the user decided to leave the chat.
