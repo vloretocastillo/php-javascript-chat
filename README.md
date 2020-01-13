@@ -19,7 +19,9 @@ Calls to the backend are done via ajax.
 
 ________
 
-After downloading the project, open in your editor and at the root run the command php -S localhost:8000
+After downloading the project, open in your editor and at the root run the command 
+#php -S localhost:8000 
+to start the server
 
 Open the client/index.html file in the browser
 
